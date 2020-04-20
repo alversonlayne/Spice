@@ -75,7 +75,7 @@ namespace Spice.Areas.Admin.Controllers
             return View(category);
         }
 
-        //GET - DELELTE
+        //GET - DELETE
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
